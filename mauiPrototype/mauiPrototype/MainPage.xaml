@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mauiPrototype.MainPage"
+             Title="Devices">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="200"
+            Padding="30,0"
+            VerticalOptions="StartAndExpand">
+
+            <ListView x:Name="DeviceListView" ItemsSource="{Binding Devices}" ItemSelected="OnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                            <TextCell Text="{Binding Name}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            <Button x:Name="ScanButton" Text="Scan" Clicked="OnScanButtonClicked"></Button>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+

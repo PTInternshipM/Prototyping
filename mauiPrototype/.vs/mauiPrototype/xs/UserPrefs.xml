@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{EAE426D4-FD11-46C7-83A9-3BBD277B1CEF}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.mauiPrototype PreferredExecutionTarget="Android.Pixel_5_API_33" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="mauiPrototype/MainPage.xaml.cs">
+    <Files>
+      <File FileName="mauiPrototype/MainPage.xaml.cs" Line="4" Column="44" />
+      <File FileName="mauiPrototype/MainPage.xaml" Line="4" Column="36" />
+      <File FileName="mauiPrototype/App.xaml.cs" Line="1" Column="24" />
+      <File FileName="../../../../usr/local/share/dotnet/packs/Microsoft.Android.Sdk.Darwin/32.0.448/tools/Xamarin.Android.Common.targets" Line="1487" Column="3" />
+      <File FileName="../../../../usr/local/share/dotnet/packs/Microsoft.iOS.Sdk/15.4.447/tools/msbuild/iOS/Xamarin.Shared.targets" Line="1677" Column="3" />
+      <File FileName="mauiPrototype/Platforms/iOS/Program.cs" Line="1" Column="1" />
+      <File FileName="mauiPrototype/Platforms/iOS/AppDelegate.cs" Line="11" Column="1" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/6.0.401/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="240" Column="18" />
+      <File FileName="mauiPrototype/MauiProgram.cs" Line="15" Column="1" />
+      <File FileName="mauiPrototype/AppShell.xaml" Line="1" Column="1" />
+      <File FileName="mauiPrototype/AppShell.xaml.cs" Line="1" Column="1" />
+      <File FileName="mauiPrototype/App.xaml" Line="1" Column="1" />
+      <File FileName="mauiPrototype/Models/Device.cs" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="mauiPrototype" expanded="True">
+            <Node name="mauiPrototype" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_5_API_33" />
+</Properties>
