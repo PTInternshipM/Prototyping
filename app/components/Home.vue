@@ -1,43 +1,51 @@
 <template>
   <Page>
     <ActionBar>
-      <Label text="Home"/>
+      <Label text="Devices"></Label>
     </ActionBar>
 
-    <GridLayout>
-      <Label class="info">
-        <FormattedString>
-          <Span class="fas" text.decode="&#xf135; "/>
-          <Span :text="message"/>
-        </FormattedString>
-      </Label>
-    </GridLayout>
+    <WrapLayout orientation="horizontal">
+      <ListView for="item in items" @itemTap="$navigateTo(detailPage)" height="80%" width="100%">
+        <v-template>
+          <StackLayout orientation="vertical">
+            <Label :text="item.name" textWrap="true"></Label>
+          </StackLayout>
+        </v-template>
+      </ListView>
+      <Button class="my-button" text="Scan" @tap="scan" width="90%" />
+    </WrapLayout>
   </Page>
 </template>
 
 <script lang="ts">
-  import Vue from "nativescript-vue";
+import Vue from "nativescript-vue";
+import {getDevices} from "~/models/Device"
+import Detail from "~/components/Detail.vue"
 
-  export default Vue.extend({
-    computed: {
-      message() {
-        return "Blank {N}-Vue app";
-      }
+export default Vue.extend({
+  computed: {},
+  data() {
+    return {
+      items: getDevices(),
+      detailPage: Detail
     }
-  });
+  },
+  methods: {
+    scan: (ev: CustomEvent) => {
+      console.log('Scanning...')
+      setTimeout(() => {
+        console.log('Scanning done')
+      }, 3000);
+    }
+  },
+});
 </script>
 
 <style scoped lang="scss">
-  @import '@nativescript/theme/scss/variables/blue';
+@import '@nativescript/theme/scss/variables/blue';
 
-  // Custom styles
-  .fas {
-    @include colorize($color: accent);
-  }
-
-  .info {
-    font-size: 20;
-    horizontal-align: center;
-    vertical-align: center;
-  }
+.my-button {
+  background-color: #7b7bff;
+  color: #ffffff;
+}
 </style>
