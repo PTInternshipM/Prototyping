@@ -1,0 +1,66 @@
+PODS:
+  - bluetooth_low_energy (0.0.1):
+    - Flutter
+    - SwiftProtobuf (~> 1.20)
+  - Flutter (1.0.0)
+  - flutter_ble_lib_ios_15 (2.4.1):
+    - Flutter
+    - MultiplatformBleAdapter (~> 0.1.9)
+  - flutter_blue_plus (0.0.1):
+    - Flutter
+    - flutter_blue_plus/Protos (= 0.0.1)
+  - flutter_blue_plus/Protos (0.0.1):
+    - Flutter
+    - Protobuf (~> 3.11)
+  - MultiplatformBleAdapter (0.1.9)
+  - Protobuf (3.21.7)
+  - quick_blue (0.0.1):
+    - Flutter
+  - reactive_ble_mobile (0.0.1):
+    - Flutter
+    - Protobuf (~> 3.5)
+    - SwiftProtobuf (~> 1.0)
+  - SwiftProtobuf (1.20.2)
+
+DEPENDENCIES:
+  - bluetooth_low_energy (from `.symlinks/plugins/bluetooth_low_energy/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_ble_lib_ios_15 (from `.symlinks/plugins/flutter_ble_lib_ios_15/ios`)
+  - flutter_blue_plus (from `.symlinks/plugins/flutter_blue_plus/ios`)
+  - quick_blue (from `.symlinks/plugins/quick_blue/ios`)
+  - reactive_ble_mobile (from `.symlinks/plugins/reactive_ble_mobile/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MultiplatformBleAdapter
+    - Protobuf
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  bluetooth_low_energy:
+    :path: ".symlinks/plugins/bluetooth_low_energy/ios"
+  Flutter:
+    :path: Flutter
+  flutter_ble_lib_ios_15:
+    :path: ".symlinks/plugins/flutter_ble_lib_ios_15/ios"
+  flutter_blue_plus:
+    :path: ".symlinks/plugins/flutter_blue_plus/ios"
+  quick_blue:
+    :path: ".symlinks/plugins/quick_blue/ios"
+  reactive_ble_mobile:
+    :path: ".symlinks/plugins/reactive_ble_mobile/ios"
+
+SPEC CHECKSUMS:
+  bluetooth_low_energy: af34d921ca3a9e085cf6364c500050965acf25f9
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_ble_lib_ios_15: 6c856306f784bcb94f3e1ca2fc4834f865925d25
+  flutter_blue_plus: 6787777145d615de01828f3a9fa423c3c702f0b3
+  MultiplatformBleAdapter: 5a6a897b006764392f9cef785e4360f54fb9477d
+  Protobuf: f4128517d7a42302e106cc3afe614ee3a7513e94
+  quick_blue: 3786c0eccb373bf9799ec1b42f495f77199a4e7e
+  reactive_ble_mobile: 9ce6723d37ccf701dbffd202d487f23f5de03b4c
+  SwiftProtobuf: 9f458aaa7844a2fc0b910053e66578bc4e2da9c1
+
+PODFILE CHECKSUM: 7368163408c647b7eb699d0d788ba6718e18fb8d
+
+COCOAPODS: 1.11.3
